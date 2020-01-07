@@ -3,7 +3,7 @@
 
 import pandas as pd
 
-df = pd.read_csv('data/gapminder_gdp_asia.csv', index_col=0)
+df = pd.read_csv('../../data/gapminder_gdp_asia.csv', index_col=0)
 japan = df.loc['Japan']
 
 #1.Complete the statements below to obtain the average GDP for Japan across the years reported for the 1980s.
@@ -15,7 +15,7 @@ avg = (japan.loc[gdp_decade + ___] + japan.loc[gdp_decade + ___
 #2.Abstract the code above into a single function.
 
 def avg_gdp_in_decade(country, continent, year):
-    df = pd.read_csv('data/gapminder_gdp_'+___+'.csv',delimiter=',',index_col=0)
+    df = pd.read_csv('../../data/gapminder_gdp_'+___+'.csv',delimiter=',',index_col=0)
     ____
     ____
     ____

@@ -5,5 +5,5 @@
 # among the countries in Asia for each year in the data set. 
 # What relationship do you see (if any)?
 
-data_asia = pd.read_csv('data/gapminder_gdp_asia.csv', index_col='country')
+data_asia = pd.read_csv('../../data/gapminder_gdp_asia.csv', index_col='country')
 data_asia.describe().T.plot(kind='scatter', x='min', y='max')

@@ -5,6 +5,6 @@
 
 import pandas as pd
 
-df = pd.read_csv('data/gapminder_gdp_europe.csv', index_col='country')
+df = pd.read_csv('../../data/gapminder_gdp_europe.csv', index_col='country')
 
 # Write an expression to find the Per Capita GDP of Serbia in 2007.

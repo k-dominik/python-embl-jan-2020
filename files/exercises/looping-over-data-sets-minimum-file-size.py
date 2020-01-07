@@ -4,7 +4,7 @@
 import glob
 import pandas as pd
 fewest = ____
-for filename in glob.glob('data/*.csv'):
+for filename in glob.glob('../../data/*.csv'):
     dataframe = pd.____(filename)
     fewest = min(____, dataframe.shape[0])
 print('smallest file has', fewest, 'records')
